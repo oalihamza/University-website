@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For entery test</title>
+    <style>
+        .class{
+            align-items: center;
+            border: 2px solid black;
+            padding-left: 30px;
+            /* margin-left: 30%;
+            margin-right: 30%; */
+            margin-top: 10%;
+            padding-bottom: 30px;
+            /* font-size:20px; */
+        }
+        .cont:hover{
+            border: 3px solid black;
+            background: red;
+            transition: 0.5s;
+            color: aliceblue;
+            text-decoration: none;
+        }
+        .co:hover{
+            border: 2px solid red;
+            color:brown;
+        }
+        .header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0,7),rgba(4,9,30,0,7)) ,url(background\ pucit.png);
+    background-size: cover;
+    background-position:center ;
+    position: relative;
+}
+nav{
+   position: relative;
+   display: flex;
+   justify-content:center;
+   padding: 3% 15px;
+
+}
+nav img{
+    width: 200px;
+    height: 200px;
+}
+.container{
+    flex: 1;
+    text-align: right;
+}
+.container ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+.container ul li a{
+    list-style: none;
+    text-decoration: none;
+    padding: 5px 8px;
+    color:white;
+     font-size: 17px;
+}
+.container ul li a::after{
+    content: '';
+    background: red;
+    height: 2px;
+    width: 0px;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+       
+   
+
+}
+.container ul li :hover::after{
+    width: 70px;
+   
+
+}
+.box{
+    text-align: center;
+     width: 90%;
+     color: whitesmoke;
+     position: absolute; 
+     padding-top: 10%;
+}
+.button{
+    border: 1px solid black;
+    padding: 15px 60px;
+    text-decoration: none;
+    color: aliceblue;
+    background: transparent;
+}
+.button:hover{
+    color: aliceblue;
+    background: red;
+    transition: 0.5s;
+    border: 1px solid black;
+
+}
+
+    </style>
+</head>
+<body style="background-image: url(form\ back.png); background-size: cover; background-position:center ; position: relative;">
+
+<nav>
+    <a href=""> <img src="logo2 of pucit.png" alt="" style="display: flex; height: 200px; width: 200px;"></a>
+    <div class="container">
+        <ul>
+            <li><a href="first page.html">HOME</a></li>
+            <li><a href="courses.html">COURSES</a></li>
+            <li><a href="email .html">Apply Now</a></li>
+            <li><a href="faculity.html">FACULITY</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+        </ul>
+    </div>
+</nav>
+    
+    <h1 style="text-align: center; font-size: 70px; font-weight: 50px;">REGISTRATION FOR ADMISSION</h1>
+    <p style="text-align: center; font-size: 40px;">It is world top rank University try to secure the admission <br> for your better future</p>
+    <div class="class">
+        <h2 style="text-align: left; padding-left: px; font-size: 45px;">Enter your personal details </h2>
+           <b style="margin-right:3000px; margin-left: 0px; font-size: 29px">Name:</b> <br>  
+            <input type="text" placeholder="Enter your name" style="padding: 10px 35px; font-size: 15px; margin-left:70px;" class="co" > <br>
+            <b style="padding-right: 200px; font-size: 29px">Father name:</b> <br>
+             <input type="text" placeholder="Enter your father name" style="padding: 10px 35px; font-size: 15px; margin-left: 70px;" class="co"> <br>
+             <b style="padding-right: 200px; font-size: 29px">Email:</b> <br>
+             <input type="text" placeholder="Enter your email" style="padding: 10px 35px; font-size: 15px; margin-left: 70px;" class="co"> <br>
+             <b style="padding-right: 200px; font-size: 29px">Phone no:</b> <br>
+            <input type="number" placeholder="Enter your phone no" style="padding: 10px 35px; font-size: 15px; margin-left: 70px;" class="co"> <br>
+            <b style="padding-right: 200px; font-size: 29px">Address:</b> <br> 
+           <input type="text" placeholder="Enter your Address" style="padding: 10px 35px; font-size: 15px; margin-left: 70px;" class="co"> <br>
+           
+           <h1 style="text-align: left; padding-left: 15px; font-size: 45px;">Gender:</h1>
+           <div style="text-align: left; padding-left: 20px;"> 
+                <label for="Male">
+                <input type="radio" name="choice" style="font-size: 49px;"> <b style="font-size: 25px;">Male</b> <br>
+            </label>
+               <label for="Male"> 
+                <input type="radio" name="choice"><b style="font-size: 25px;">Female</b> <br>
+            </label>
+            <label for="Male"> 
+                <input type="radio" name="choice"><b style="font-size: 25px;">Others</b> <br>
+            </label>
+            <h2 style="font-size: 45px;"> Matric Accademic Detail:</h2>
+            
+           <b style="padding-right: 70px;; font-size: 29px">  School Name:</b> <br>  
+            <input type="text" placeholder="Enter your  school name" style="padding: 10px 35px; font-size: 15px; margin-left: 70px;"class="co"> <br>
+            <b style="padding-right: 200px; font-size: 29px">Matric total marks:</b> 
+              <br><input type="text" placeholder="Enter your total marks" style="padding: 10px 35px; font-size: 15px; margin-left: 70px;"class="co"> <br>
+             <b style="padding-right: 200px; font-size: 29px">Matric obtain marks:</b> 
+             <br><input type="text" placeholder="Enter your obtain marks" style="padding: 10px 35px; font-size: 15px; margin-left: 70px;"class="co"> <br>
+             <h2 style="font-size: 35px; font-size: 45px"> Intermediate Accademic Detail:</h2>
+             <b style="padding-right: 200px; font-size: 29px">College Name:</b> 
+            <br><input type="text" placeholder="Enter your college name" style="padding: 10px 35px; font-size: 15px; margin-left: 70px;"class="co"> <br>
+            <b style="padding-right: 200px; font-size: 29px">Discpline:</b> <br> 
+           <input type="text" placeholder="Enter your diccipline"  style="padding: 10px 35px; font-size: 15px; margin-left: 70px;"class="co"> <br>
+           <b style="padding-right: 200px; font-size: 29px">Inter Total Marks:</b> <br>
+           <input type="text" placeholder="Enter your total marks"style="padding: 10px 35px; font-size: 15px; margin-left: 70px;"class="co"> <br>
+           <b style="padding-right: 200px; font-size: 29px">Inter Obtain Marks:</b> <br> 
+          <input type="text" placeholder="Enter your obtain marks" style="padding: 10px 35px; font-size: 15px; margin-left: 70px;"class="co"> <br>
+          <h2 style="font-size: 45px;">Offered BS programs</h2>
+          <select style="padding: 15px 34px;">
+            <option >Computer science (Morning)</option>
+            <option >Software Engineering(Morning)</option>
+            <option >Information Technology(Morning)</option>
+            <option >Data Science(Morning)</option>
+            <option >Computer science (Evening)</option>
+            <option >Software Engineering(Evening)</option>
+            <option >Information Technology(Evening)</option>
+            <option >Data Science(Evening)</option>
+          </select>
+             
+             <button style="margin-left: 450px; margin-top: 20px; padding: 13px 50px; font-size: 20px;color: aliceblue;" class="cont"><a href="email .html ">Submit Now</a></button>
+        </div>
+        
+    </div>
+    
+
+    </div>
+    <div  style="padding-left: 12px; padding-right: 900px;  margin-bottom:0px;padding-bottom: 0px; border: 2px solid black; width:50%; height:100%; margin-top: 30px; font-size: 20px;" >
+        <img src="entry test pucit.png" alt="" style="width: 1300px; height: 500px; padding-left: 150px; padding-top: 5px;">
+        <p style="background-color: red; color: aliceblue; padding-left:2px; padding-right: 20px; font-size: 40px; height: px;" > Basic Criteria for BS (4-Yrs) Program</p>
+        
+        <div style="padding-left: 1200px; width: 900px; margin: auto;">
+            
+        </div>
+       
+            Marks earned (1/4 of matriculation + FA /F. Sc or equivalent0 + Additional marks <br>
+            ____________________________________________________________________________ =B <br>
+           <br> Total marks (1/4 of matriculation + FA/F. Sc or equivalent 
+             <br>Additional Marks*: <br>
+            <br> Hafiz-e-Quran**
+            =
+            20 <br>
+           <br> Elective	
+            =
+            20 <br>
+           <br> Optional	
+            =
+            10 <br>
+           <br> Diploma	
+            =
+            20 <br>
+           <br> Additional Elective	
+            =
+            10 <br>
+           <br> Additional Optional	
+            =
+            05 <br>
+           <br> Combination of subject	
+            =
+            10 <br>
+           <br> Subject marks***	
+            =
+            Marks obtained <br>
+           <br> Any other	
+            =
+            5-10 <br>
+           <br> In case of 100% academic weightage B above will be multiplied by 100 while in case of 70% academic weightage B will be multiplied by 70. <br>
+          
+           <br> <b>• In Formula "B" applicants applying on provisional basis, the marks obtained in F.A/F.Sc. Part-I annual/supplementary, 2019 or equivalent examination shall be included for merit calculation.</b> <br>
+           <br>  <b>Two marks will be deducted from (percent academic) marks obtained out of 100 marks for each late year to a maximum of five (5) years. </b><br>
+           	
+           <br> <b style="font-size: 26px;">**</b> The candidate should produce a certificate from a well established institution to the effect that he/she is  <br>Hafiz-e-Qur’an. Moreover,  Departmental Admission Committee shall interview the candidate and make sure that the candidate had learnt the Holy Qur’an by heart and could recite it from whatever portion he/she is required to recite. <br>
+           	
+           <br> <b  style="font-size: 26px;">***</b> When subject marks (earned) are included in the earned marks as additional marks then total subject marks <br> will be added in the  denominator total marks.</p>
+          
+      </div>
+</body>
+</html>

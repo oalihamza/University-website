@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cla{
+            text-align: center;
+            justify-content:space-between;
+            margin:5%;
+            display:flex;
+            
+        }
+        .clas{
+            flex-basis: 32%;
+            background: rgb(238, 167, 167);
+            border-radius: 10px;
+            box-sizing: border-box;
+            border: 2px solid black;
+            padding: 23px 10px 12px 20px;
+            font-size: 20px;
+        }
+        .clas:hover{
+            border: 4px solid rgb(245, 56, 56);
+        }
+        nav{
+   position: absolute;
+   display: flex;
+   justify-content:right;
+   padding: 3% 15px;
+   margin-left: 60%;
+   padding-top: 0px;
+   margin-top: 0px;
+   margin-bottom: 50px;
+   padding-bottom: 23px;
+   top: 0;
+
+    }
+    
+.container{
+    flex: 1;
+    text-align: right;
+   }
+.container ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+
+     }
+.container ul li a{
+    list-style: none;
+    text-decoration: none;
+    padding: 5px 8px;
+    color: whitesmoke;
+     font-size: 17px;
+      }
+.container ul li a::after{
+    content: '';
+    background:red;
+    height: 3px;
+    width: 0px;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+       
+   
+
+        }
+.container ul li :hover::after{
+    width: 70px;
+      }
+
+    </style>
+</head>
+<body style="background-image: url(firm.png); background-size: cover;">
+    <nav>
+            
+        <div class="container">
+            <ul>
+              <li><a href="first page.html">HOME</a></li>
+              <li><a href="courses.html">COURSES</a></li>
+              <li><a href="email .html">Apply Now</a></li>
+              <li><a href="faculity.html">FACULITY</a></li>
+              <li><a href="aboutus.html">ABOUT US</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1 style="text-align: center; font-size: 60px; margin-top: 50px;">THE COURSES WE OFFER</h1>
+    <p  style="text-align: center; font-size: large;">we offer some good programs that other universities have no facilities . <br> we offer some uniqur programs.</p>
+    <div class="cla">
+        <div  class="clas">
+            <h3>BS Programs</h3>
+            <p>Build a strong foundation in theoretical concepts in computing and software engineering.
+                enable the use of software engineering methodologies and tools for requirements gathering, designing, engineering and testing software systems.
+               
+               <br> Prepare students for rigours of graduate studies, as well as for careers in the industry.
+                provide a balanced exposure to liberal arts.
+                foster a sense of professional and ethical responsibilities.</p>
+        </div>
+        <div class="clas">
+            <h3>Master level Programs</h3>
+            <p>M.S/M.Phil course will be for four semesters. In first two semesters, 24 credit hours course work and in 3rd and 4th semesters 6 credit hours research work / internship / project (as the case may be) will be carried out.
+                For MS/ M.Phil leading to Ph.D. student shall be required to acquire CGPA = 3.0 and to pass a comprehensive examination .
+                </p>
+        </div>
+        <div class="clas">
+            <h3>PHD level Programs</h3>
+            <p>MS/M.Phil/M.Sc. (Engg/Hons.) with Computer Science/ Information Technology/ Software Engineering/ Computer Engineering/ Information Systems/ Bioinformatics Degree or its equivalent in the relevant subject from a recognized University (at least 18 year of education) with minimum CGPA > 3.00/4.00 as per Higher Education Commission (HEC) rules.</p>
+        </div>
+    </div>
+    <h1 style="text-align: center; font-size: 40px; ">Success story of PUCIT students</h1>
+
+
+<video width="640" height="360"  controls   style="margin-left: 30%; border-radius: 20px;">
+    <source src="pucit.mp4" type="video/mp4">
+    <source src="" type="video/webm">
+  </video>
+
+</body>
+</html>

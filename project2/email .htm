@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(215, 238, 238);
+            text-align: center;
+            padding-top: 100px;
+        }
+        #first{
+            border: 30px;
+            margin: auto;
+        }
+
+        #submit{
+            color: white;
+            background-color: blue;
+            border-color: black;
+        }
+    </style>
+    <style>
+        #hm{
+            border-color: azure;
+            align-items: center;
+          
+
+        }
+        .co:hover{
+            background: red;
+            transition: 0.5s;
+            color: aliceblue;
+        }
+        .con:hover{
+            border: 2px solid red;
+            color: brown;
+        }
+       
+nav{
+   position: relative;
+   display: flex;
+   justify-content:center;
+   top: 0;
+
+
+}
+.container{
+    flex: 1;
+    text-align: right;
+    top: 0;
+}
+.container ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+.container ul li a{
+    list-style: none;
+    text-decoration: none;
+    padding: 5px 8px;
+    color:whitesmoke;
+     font-size: 17px;
+}
+.container ul li a::after{
+    content: '';
+    background: red;
+    height: 2px;
+    width: 0px;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+       
+   
+
+}
+.container ul li :hover::after{
+    width: 70px;
+   
+
+}
+        
+    </style>
+</head>
+
+<body style="background-image: url(firm.png); background-size: cover;">
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="first page.html">HOME</a></li>
+                <li><a href="courses.html">COURSES</a></li>
+                <li><a href="email .html">Apply Now</a></li>
+                <li><a href="faculity.html">FACULITY</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1 style="font-size: 50px; color: aliceblue;">Welcome to the world of PUCIT.</h1><br>
+    <d id="first">
+<div style="border: 2px solid black; height: 400px ;  background-color: rgb(32, 235, 167); border-radius: 10px; width: 500px; height: 500px; text-align: center; align-items: center; margin-left: 35%;">
+            
+    <h2 style="text-align: left; padding-left: 25px; font-size: 32px;">Enter your Email and password </h2> <br>
+ <form action="backened.php"></form>
+ <b style="padding-right: 200px; font-size: 29px">Email:</b> <br>
+             <input type="text" placeholder="Enter your email" style="padding: 10px 35px; font-size: 15px; margin-left: 70px;" class="con"> <br>
+             <b style="padding-right: 200px; font-size: 29px">Password:</b> <br>
+            <input type="number" placeholder="Enter your password" style="padding: 10px 35px; font-size: 15px; margin-left: 70px;" class="con"> <br>
+  <br><a href="first page.html"  style="border: 1px solid black; color:black; border-radius: 13px; padding: 10px 34px; text-decoration: none; color: aliceblue;font-size: 20px;" class="co">Login</a> <br>
+  <br><p>If you do not have account</p>  <b style="font-size: 20px;">Click here</b> <br>
+  <br><a href="entry form.html" style="border: 1px solid black; ; border-radius: 13px;padding: 10px 50px;  text-decoration: none; color: aliceblue; font-size: 20px" class="co">New Registrition</a>
+</div>
+</body>
+</html>

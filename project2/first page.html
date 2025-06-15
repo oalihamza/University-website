@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        .header{
+            width: 100%;
+            min-height: 100vh;
+            background-image: linear-gradient(rgba(4,9,30,0,7),rgba(4,9,30,0,7)) ,url(background\ pucit.png);
+            background-size: cover;
+            background-position:center ;
+            position: relative;
+        }
+        nav{
+           position: relative;
+           display: flex;
+           justify-content:center;
+           padding: 3% 15px;
+
+        }
+        nav img{
+            width: 200px;
+            height: 200px;
+        }
+        .container{
+            flex: 1;
+            text-align: right;
+        }
+        .container ul li{
+            list-style: none;
+            display: inline-block;
+            padding: 5px;
+        }
+        .container ul li a{
+            list-style: none;
+            text-decoration: none;
+            padding: 5px 8px;
+            color:white;
+             font-size: 17px;
+        }
+        .container ul li a::after{
+            content: '';
+            background: red;
+            height: 2px;
+            width: 0px;
+            display: block;
+            margin: auto;
+            transition: 0.5s;
+               
+           
+
+        }
+        .container ul li :hover::after{
+            width: 70px;
+           
+
+        }
+        .box{
+            text-align: center;
+             width: 90%;
+             color: whitesmoke;
+             position: absolute; 
+             padding-top: 10%;
+        }
+        .button{
+            border: 1px solid black;
+            padding: 15px 60px;
+            text-decoration: none;
+            color: aliceblue;
+            background: transparent;
+        }
+        .button:hover{
+            color: aliceblue;
+            background: red;
+            transition: 0.5s;
+            border: 1px solid black;
+
+        }
+        @media(max-width: 100px){
+            .box h1{
+        
+             width: 20px;
+             
+        }
+    .container ul li{
+        display:inline-block;
+        font-size: 9px;
+
+    }
+ 
+
+}
+       
+
+
+    </style>
+</head>
+<body style="background-image: url(background\ pucit.png); background-size: cover; background-position: center;">
+
+    <section class="header">
+        
+        <nav>
+            <a href=""> <img src="logo2 of pucit.png" alt=""></a>
+            <div class="container">
+                <ul>
+                    <li><a href="first page.html">HOME</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="email .html">Apply Now</a></li>
+                    <li><a href="faculity.html">FACULITY</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                </ul>
+            </div>
+        </nav>
+    
+      <div class="box">
+        <h1 style="font-size: 68px;">This is world largest University</h1>
+        <p style="margin:10px 40px; font-size: 25px;">Making website is very easy naw a day you need to learn HTML, CSS or <br> JAVA SCRIPT only and you do good easily</p> <br> <br> <br> <br>
+          
+     
+         <a href="aboutus.html" class="button">Visit us more</a>
+            </div>
+        </section>
+</body>
+</html>

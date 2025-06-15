@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+   position: absolute;
+   display: flex;
+   justify-content:right;
+   padding: 3% 15px;
+   margin-left: 60%;
+   padding-top: 0px;
+   margin-top: 0px;
+   margin-bottom: 50px;
+   padding-bottom: 23px;
+   top: 0;
+
+    }
+    
+.container{
+    flex: 1;
+    text-align: right;
+   }
+.container ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+
+     }
+.container ul li a{
+    list-style: none;
+    text-decoration: none;
+    padding: 5px 8px;
+    color:whitesmoke;
+     font-size: 17px;
+      }
+.container ul li a::after{
+    content: '';
+    background: red;
+    height: 3px;
+    width: 0px;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+       
+   
+
+        }
+.container ul li :hover::after{
+    width: 70px;
+      }
+      .colomb{
+        flex-basis: 32%;
+        border-radius: 7px;
+        margin-bottom: 30px;
+        position:relative;
+        overflow: hidden;
+      }
+      .colomb img{
+        width: 150%;
+        display:block;
+       
+      
+      }
+      .layer{
+       height: 100%;
+       width: 150%;
+       background: transparent;
+        position: absolute;
+        top:0;
+        left:0;
+      }
+      .layer:hover{
+        background: rgba(226,0,0,0.7);
+      }
+      .layer h3{
+        bottom: 0;
+        left: 30%;
+        transform: translateX(-50px);
+        width: 100%;
+        font-size: 26px;
+        position: absolute;
+        opacity: 0;
+        color:#fff;
+        font-weight: 500px;transition: 0.5s;
+      }
+      .layer:hover  h3{
+        opacity: 1;
+        bottom: 30%;
+      }
+      .campus{
+        width: 80% ;
+        margin: auto;
+        align-items: center;
+        padding-top: 50px;
+        
+      }
+      .row{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+      }
+
+    </style>
+</head>
+<body style="background-image: url(firm.png); background-size: cover;">
+    
+        <nav>
+            
+            <div class="container">
+                <ul>
+                  <li><a href="first page.html">HOME</a></li>
+                  <li><a href="courses.html">COURSES</a></li>
+                  <li><a href="email .html">Apply Now</a></li>
+                  <li><a href="faculity.html">FACULITY</a></li>
+                  <li><a href="aboutus.html">ABOUT US</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="campus">
+        <h1 style=" font-size: 70px;">OUR GLOBAL CAMPUSES</h1> <hr>
+        <p style="text-align: center; font-size: 30px;"> Punjab university</p>
+        <div class="row">
+            <div class="colomb">
+               <a href="new campus.html"><img src="new campus.png" style="height:250px"></a> 
+                <div class="layer">
+                    <h3>New campus</h3>
+                </div>
+                
+                 </div>
+                 
+                 <div class="colomb">
+                   <a href="old campus.html"><img src="old campus.png" style="height:250px"></a> 
+                    <div class="layer">
+                        <h3>Old campus</h3>
+                    </div>
+                     </div>
+                     <div class="colomb">
+                        <a href=""><img src="pothohar campus.png" style="height:250px"></a>
+                        <div class="layer">
+                            <h3>Pothohar campus</h3>
+                        </div>
+                         </div>
+                        
+               </div>
+       </section>
+       <section class="campus">
+       <div class="row">
+       <div class="colomb">
+       <a href=""><img src="jhelum campus.png" style="height:250px"></a> 
+        <div class="layer">
+            <h3>Jhelum campus</h3>
+        </div>
+         </div>
+         <div class="colomb">
+            <a href=""><img src="khanspur campus.png" style="height:250px"></a>
+            <div class="layer">
+                <h3>khanspur campus</h3>
+            </div>
+             </div>
+             <div class="colomb">
+                <a href=""><img src="gugrawala campus.png" style="height:250px"></a>
+                <div class="layer">
+                    <h3>Gugrawala campus</h3>
+                    
+                </div>
+                 </div>
+                </div>
+            </section>
+           
+</body>
+</html>
+
+
+
